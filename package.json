@@ -1,0 +1,20 @@
+{
+  "name": "agenticberniekit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lean, event-driven harness engineering framework and cross-CLI multi-agent orchestrator",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "vitest run",
+    "typecheck": "pnpm -r typecheck && tsc --noEmit -p tsconfig.json",
+    "lint": "pnpm typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
